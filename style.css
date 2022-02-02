@@ -1,0 +1,78 @@
+/* fonte das letras - google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+/* layout - flexbox */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: rgb(91, 156, 230);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cabecalho-titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.centralizado, footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.espaco{
+    padding-top: 30px;
+}
+
+.conteudo-secundario, .conteudo-principal, header {
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.conteudo-principal {
+    font-size: 30px;
+}
+
+.conteudo-secundario {
+    flex-direction: row;
+    gap: 50px;
+}
+
+.fonte{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.esquerda {
+    width: 50%;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.direita {
+    width: 50%;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.botao {
+    margin-bottom: 50px;
+    padding: 10px;
+}
